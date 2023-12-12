@@ -6,6 +6,7 @@
 따라서 지역적, 시간적 특성을 반영한 구체적인 정보를 제시할 필요성 존재  
 
 ### 결과물  
+<img src="https://github.com/Le2Seungyoon/Real-Estate-Price-Determinants-Guide/assets/118061818/250f98fa-6e99-4343-80d2-a9c143ebe005/web_sample.png" width="400" height="200"/>
 
 ### 데이터  
 |Feature|Description|
