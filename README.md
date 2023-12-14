@@ -23,10 +23,7 @@
 |회사채|거시경제 관련 변수|
 |면적당 가격|가치를 나타내는 종속변수|
 
-### 파이프라인  
-1) 데이터 수집 후 전처리 과정을 통해 dataset.csv 구축
-2) GridSearchCV
-3) Optuna
-4) Permutation Feature Importance
-5) 리스트 전달
-6) 웹에서 시각화
+### 모델링 방법  
+1) GridSearchCV
+2) Optuna
+3) Permutation Feature Importance
