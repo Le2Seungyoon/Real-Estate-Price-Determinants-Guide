@@ -23,7 +23,7 @@
 |회사채|거시경제 관련 변수|
 |면적당 가격|가치를 나타내는 종속변수|
 
-### 모델링 방법  
+### 프로세스  
 1) GridSearchCV
 2) Optuna
 3) Permutation Feature Importance
