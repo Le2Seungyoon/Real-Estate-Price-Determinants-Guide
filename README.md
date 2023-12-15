@@ -44,4 +44,4 @@
 ### 실행  
 1) 모델링을 위해서는 modeling.ipynb 실행  
 2) 이후 생긴 importances_dict.json을 이용하여 visualize.ipynb 실행  
-3) 최신화를 위해서는 데이터셋 출처에서 최신 데이터를 다운받은 후 전처리하여 dataset.csv와 같은 양식의 데이터 구축  
+3) 최신화를 위해서는 데이터 출처에서 최신 데이터를 다운로드 후 dataset.csv와 같은 양식의 데이터 구축  
