@@ -34,14 +34,14 @@
 1) Model Define:  
    지역별로 vanilla LGBM 모델을 생성 
 2) Hyperparameter Tuning:  
-   GridsearchCV를 통해 넓은 구간에서의 최적 파라미터 조합 탐색 후,
+   GridsearchCV를 통해 넓은 구간에서의 최적 파라미터 조합 탐색 후,  
    KFold + Optuna를 통해 좁은 구간에서 최적 파라미터 값 도출  
 3) Permutation Feature Importance:  
    Greedy 알고리즘인 Tree 모델의 Feature Importance가 가지는 단점을 보안하기 위해,    
    반복 시행을 통해 변수 중요도를 반환하는 Permutation Feature Importance를 사용  
-   이를 통해 구해진 중요도를 웹에 전달하여 시각화
+   이를 통해 구해진 중요도를 웹에 전달하여 시각화  
 
 ### 실행  
 1) 모델링을 위해서는 modeling.ipynb 실행  
-2) 이후 생긴 --을 이용하여 visualize.ipynb 실행  
+2) 이후 생긴 importances_dict.json을 이용하여 visualize.ipynb 실행  
 3) 최신화를 위해서는 데이터셋 출처에서 최신 데이터를 다운받은 후 전처리하여 dataset.csv와 같은 양식의 데이터 구축  
