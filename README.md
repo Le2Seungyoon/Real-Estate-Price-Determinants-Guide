@@ -8,6 +8,11 @@
 ### 결과물  
 <img src="https://github.com/Le2Seungyoon/Real-Estate-Price-Determinants-Guide/assets/118061818/250f98fa-6e99-4343-80d2-a9c143ebe005/web_sample.png" width="512" height="256"/>
 
+### 주요 기능  
+특정 지역을 선정하여 해당 지역에서 어떤 요인이 가격 결정력이 높은지 제시  
+이를 바탕으로 이용자는 부동산 매물을 선정함에 있어 주요 요인을 고려하여 
+가치가 높은 부동산을 선택할 수 있는 가이드를 제시  
+
 ### 데이터  
 |Feature|Description|
 |---|---|
