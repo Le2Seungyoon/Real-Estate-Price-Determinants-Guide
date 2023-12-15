@@ -35,7 +35,7 @@
    지역별로 vanilla LGBM 모델을 생성 
 2) Hyperparameter Tuning:  
    GridsearchCV를 통해 넓은 구간에서의 최적 파라미터 조합 탐색 후,
-   Optuna를 통해 좁은 구간에서 최적 파라미터 값 도출  
+   KFold + Optuna를 통해 좁은 구간에서 최적 파라미터 값 도출  
 3) Permutation Feature Importance:  
    Greedy 알고리즘인 Tree 모델의 Feature Importance가 가지는 단점을 보안하기 위해,    
    반복 시행을 통해 변수 중요도를 반환하는 Permutation Feature Importance를 사용  
